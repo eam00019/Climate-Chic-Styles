@@ -1,0 +1,186 @@
+﻿@page
+@model Homework1Mago.Pages.Index1Model
+@{
+    
+}
+<DOCTYPE>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<body>
+<header>
+
+    <style>
+                h1 {
+                    color: #cc3377;
+                    font-size: 36px;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+
+                h2 {
+                    color: #800080;
+                    font-size: 24px;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-bottom: 15px;
+                }
+
+                h3 {
+                    color: #800080;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+
+                .heart-icon::before {
+                    content: "\2665";
+                    color: #cc3377;
+                    margin-right: 5px;
+                }
+
+
+                section {
+                    margin-bottom: 30px;
+                }
+
+
+                p {
+                    font-size: 16px;
+                    line-height: 1.6;
+                }
+
+                .navbar {
+                    background-color: #FFB6C1;
+                }
+
+                footer {
+                    background-color: #FFB6C1;
+                    color: white;
+                    padding: 15px;
+                }
+
+                .navbar-collapse.collapse {
+                    display: none !important;
+                }
+
+                .navbar-toggle {
+                    display: block !important;
+                }
+
+                .navbar-collapse.collapse.in {
+                    display: block !important;
+                }
+
+                .collapsing {
+                    overflow: hidden !important;
+                }
+
+                .pink-button {
+                    background-color: #cc3377;
+                    border-radius: 20px; 
+                    color: white;
+                    padding: 10px 20px;
+                    border: none;
+                    cursor: pointer;
+                    display:block;
+                    margin:0 auto;
+                }
+
+            </style>
+
+
+
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Welcome</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/Homepage">Home</a></li>
+                            <li><a href="/Index1">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+<h1>
+About Us
+</h1>
+
+ 
+</header>
+<section>
+    <h2>
+    Introduction to Climate Chic Styles
+    </h2>
+    <p>
+    Welcome to ClimateChicStyles.com, your ultimate destination for expert hair care advice and community support. We understand that achieving the perfect hairstyle is more than just about looks; it's about confidence and embracing your unique beauty in every climate.
+    </p>
+</section>
+<section>
+    <h2>
+    Why Choose Climate Chic Styles?
+    </h2>
+    <p>
+    At ClimateChicStyles.com, we pride ourselves on offering unparalleled expert advice and fostering a supportive community for hair enthusiasts worldwide. Here's why you should choose us:
+    </p>
+    <p>
+                <ul style="list-style-type: circle;">
+                    <li>Expert Advice: Our team of seasoned hairstylists and haircare professionals provides comprehensive guidance tailored to various climates. From tackling frizz in humid weather to combating dryness in arid conditions, we've got you covered with tried-and-tested tips and techniques.</li>
+                    <li>Community Support: Join our vibrant online community to connect with fellow hair enthusiasts, share styling tips, and celebrate the beauty of diverse hair textures and types. Whether you're seeking advice or eager to showcase your latest hairstyle, our supportive forum is the perfect place to engage and inspire others.</li>
+                </ul>
+    </p>
+</section>
+<section>
+ <h2>
+ Join Our Community
+ </h2>
+
+    <button id="joinbutton" class="pink-button"> Join Now!</button>
+    <script>
+        function handleClick() {
+            alert("Signed Up!")
+        }
+        var button = document.getElementById("joinbutton");
+
+        button.addEventListener("click", handleClick);
+    </script>
+
+</section>
+        <footer class="container-fluid text-center">
+            <a href="/Homepage"> Climate Chic Styles!</a>
+        </footer>
+
+
+</body>
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+</DOCTYPE>
+
+
+    
+
+

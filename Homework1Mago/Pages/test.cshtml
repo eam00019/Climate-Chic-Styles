@@ -1,0 +1,248 @@
+﻿@page
+@model Climate_Chic_Styles.Pages.testModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Custom styling for headers */
+        h1 {
+            color: #cc3377; /* Text color */
+            font-size: 36px; /* Font size */
+            font-weight: bold; /* Font weight */
+            text-align: center; /* Text alignment */
+            margin-bottom: 20px; /* Bottom margin */
+        }
+        
+        h2 {
+            color: #800080;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #800080;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .heart-icon::before {
+            content: "\2665";
+            color: #cc3377; 
+            margin-right: 5px;
+        }
+
+       
+        section {
+            margin-bottom: 30px; 
+        }
+
+       
+        p {
+            font-size: 16px; 
+            line-height: 1.6; 
+        }
+        
+        .navbar {
+            background-color: #FFB6C1;
+        }
+
+        footer {
+            background-color: #FFB6C1;
+            color: white;
+            padding: 15px;
+        }
+
+        .navbar-collapse.collapse {
+            display: none !important;
+        }
+
+        .navbar-toggle {
+            display: block !important;
+        }
+
+        .navbar-collapse.collapse.in {
+            display: block !important;
+        }
+
+        .collapsing {
+            overflow: hidden !important;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Welcome</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="/Index1">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <h1 class="heart-icon">Climate Chic Styles</h1>
+    <br />
+    <h2>
+        Unlock Stylish Solutions for Every Climate!
+    </h2>
+
+
+    <p>
+        Are you tired of battling frizz in humid weather or dealing with flat hair in dry climates? Look no further! At ClimateChicStyles.com, we've curated a collection of the best hairstyles tailored to suit every climate condition, ensuring you look fabulous no matter the weather.
+    </p>
+
+    <section>
+        <h2>
+            Our Featured Hairstyles for Different Climates:
+        </h2>
+        <p>
+
+            Choosing the right hairstyle for different climates can help manage your hair's health and appearance. Here are some suggestions for various climates:
+        </p>
+    </section>
+    <section>
+        <h3>
+            Humid Climate:
+        </h3>
+        <p>
+            <ul style="list-style-type: circle;">
+                <li>Short and Layered: Shorter hairstyles with layers can reduce bulk and prevent frizz in humid weather.</li>
+                <li>Pixie Cut: A pixie cut is a n easy to manage option and does not require much styling in humid weather.</li>
+                <li>Braids or Buns: Braids or buns can help keep your hair under control and prevent frizz by keeping it contained.</li>
+            </ul>
+        </p>
+    </section>
+    <section>
+        <h3>
+            Dry Climate:
+        </h3>
+        <p>
+            <ul style="list-style-type: circle;">
+                <li> Long and Moisturized: Longer hairstyles that are able to retain moisture are the best for dry climates.  Regular deep conditioning can help keep you hair hydrated if you are in an area that is very dry.</li>
+                <li> Loose Waves: Loose waves can add lots of volume and texture to your hair, which helps combats that flatness that dry climates cause.</li>
+                <li> Protective Styles: If you struggle with extremely dry hair, consider protective hairstyles. For example, twists or braids can help minimize exposure to dry air and prevent moisture loss.</li>
+            </ul>
+        </p>
+    </section>
+    <section>
+        <h3>
+            Cold Climate:
+        </h3>
+        <p>
+            <ul style="list-style-type: circle;">
+                <li> Hydrating Haircuts: Choose a hairstyle that retains moisture, such as a layered cut. Layered cuts can prevent moisture loss and maintain volume.</li>
+                <li> Low Maintenance Cuts: Hairstyles that require minimal styling can be optimal in cold climates.  Due to temperatures being low, you may not want to spend much time with wet hair. Having wet hair in cold climates can lead to hair breakage.</li>
+                <li> Hats and Scarves: Accessories will be your best friends in cold climates. Hats and scarves can protect your hair from the harsh elements of the cold weather.</li>
+            </ul>
+        </p>
+    </section>
+    <section>
+        <h3>
+            Tropical Climate:
+        </h3>
+        <p>
+            <ul style="list-style-type: circle;">
+                <li>Short and Easy: Shorter, low maintenance hairstyles are very ideal for tropical climates. In places with tropical climates, humidity and heat can make styling difficult. </li>
+                <li>Natural Styles: Embrace your hair's natural texture! It is very hard to fight against humidity and frizz, so styling usually do not work.</li>
+                <li>Updos: Updos can help provide relief in hot weather.  Updos can also help keep hair off of your neck, which can help prevent lots of sweating. </li>
+            </ul>
+        </p>
+    </section>
+    <section>
+        <h3>
+            Temperate Climate:
+        </h3>
+        <p>
+            <ul style="list-style-type: circle;">
+                <li> Versatile Lengths: Medium Length hairstyles can offer versatillity for different weather conditions. Medium length can also be styled in various ways.</li>
+                <li> Blowouts: Blow-drying your hair straight can help prevent frizz in humid weather and add volume and shine in drier condiitons.</li>
+                <li> Textured Cuts: Having a textured haircut can help add adaptability to your hairstyle, which makes it suitable for different climates.</li>
+            </ul>
+        </p>
+    </section>
+    <section>
+        <h3>
+            Key Takeaways:
+        </h3>
+    </section>
+
+    <div class="table-container">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Climate</th>
+                    <th>Hairstyle</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr class="table-primary">
+                    <td>Humid</td>
+                    <td>Braids</td>
+
+                </tr>
+                <tr class="table-success">
+                    <td>Dry</td>
+                    <td>Protective Styles</td>
+
+                </tr>
+                <tr class="table-info">
+                    <td>Cold</td>
+                    <td>Hydrating Haircuts</td>
+
+                </tr>
+                <tr class="table-warning">
+                    <td>Tropical</td>
+                    <td>Updos</td>
+
+                </tr>
+                <tr class="table-danger">
+                    <td>Temperate</td>
+                    <td>Blowouts</td>
+
+                </tr>
+
+
+
+            </tbody>
+        </table>
+    </div>
+    <br />
+    <section>
+        <h3>Tips!</h3>
+        <p>
+            Remember to adjust your hair care routine according to the climate you're in. Using appropriate hair products, such as anti-frizz serums in humid climates or hydrating masks in dry climates, can also help maintain your hair's health and appearance.
+        </p>
+    </section>
+
+
+    <footer class="container-fluid text-center">
+        <a href="/index1"> About Climate Chic Styles</a>
+    </footer>
+
+</body>
+</html>
