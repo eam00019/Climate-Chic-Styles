@@ -21,10 +21,12 @@ body {
   margin-bottom: 60px;
 }
 
-.heart-icon::before {
+.heart-icon::before,
+.heart-icon::after {
     content: "\2665";
     color: #cc3377;
     margin-right: 5px;
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 section {
     margin-bottom: 30px;
