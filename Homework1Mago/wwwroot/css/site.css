@@ -20,3 +20,18 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.heart-icon::before {
+    content: "\2665";
+    color: #cc3377;
+    margin-right: 5px;
+}
+section {
+    margin-bottom: 30px;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
