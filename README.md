@@ -9,9 +9,10 @@ This project aims to create a website, Climate Chic Styles, that offers hairstyl
 
  **Climate Chic Styles Page:**
    - Introduces ClimateChicStyles.com as a solution-oriented platform for climate-specific hair care.
-   - Saved as "homepage.cshtml" in my visual studio/repo.
    - Provides tailored hairstyle recommendations and practical tips for maintaining hair health in various climates.
    - Features concise yet informative content in a user-friendly interface.
+   - Saved as "homepage.cshtml" in my visual studio/repo.
+     
 **About Us Page:**
    - Showcases the values and expertise of Climate Chic Styles, aiming to establish trust and credibility.
    - Introduces the "team", emphasizes tailored guidance for different climates, and highlights community engagement.
