@@ -21,13 +21,24 @@ body {
   margin-bottom: 60px;
 }
 
+
+
 .heart-icon::before,
 .heart-icon::after {
     content: "\2665";
     color: #cc3377;
     margin-right: 5px;
-    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.2);
+   
 }
+.my-box{
+    background-color: #cc3377
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+
+}
+
 section {
     margin-bottom: 30px;
 }
